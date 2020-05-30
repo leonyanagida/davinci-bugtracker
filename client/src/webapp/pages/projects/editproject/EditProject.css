@@ -1,0 +1,87 @@
+.editproject-form {
+}
+.editproject-form__title {
+}
+.editproject-editor {
+    margin-top: 1em;
+}
+.editproject-container {
+}
+.editproject-guidelines {
+    padding: 1.5em;
+}
+.editproject-submit {
+    margin-top: 1.2em !important;
+    padding-bottom: 0.7em !important;
+    padding-left: 3em !important;
+    padding-right: 3em !important;
+    padding-top: 0.7em !important;
+}
+.editproject-cancel {
+    margin-left: 1em !important;
+    margin-top: 1.2em !important;
+    padding-bottom: 0.7em !important;
+    padding-left: 3em !important;
+    padding-right: 3em !important;
+    padding-top: 0.7em !important;
+}
+
+@media screen and (min-width: 980px) {
+    .editproject-container {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .editproject-form {
+        margin-left: 4em;
+        max-width: 55%;
+        text-align: left;
+    }
+    .editproject__input-container {
+    }
+    .editproject__title {
+        width: 100%;
+    }
+    .editproject__bugerror {
+        width: 100%;
+    }
+    .editproject__priority {
+        width: 100%;
+    }
+    .editproject__language {
+        margin-right: 1em !important;
+        width: 100%;
+    }
+    .editproject__duedate {
+        margin-right: 1em !important;
+        width: 100%;
+    }
+    .editproject__assignedto {
+        width: 100%;
+    }
+    .editproject__project {
+        width: 100%;
+    }
+    .editproject-guidelines {
+        border: 1px solid #cacaca;
+        border-radius: 0.5em;
+        margin-top: 5.2em;
+        padding: 1.5em;
+        width: 18em;
+    }
+    .editproject__text {
+        color: #383838;
+    }
+}
+
+@media screen and (min-width: 1299px) {
+    .editproject-container {
+        margin: auto;
+        max-width: 1300px;
+    }
+    .editproject-form {
+        margin-left: 4em;
+        max-width: 65%;
+        text-align: left;
+    }
+}

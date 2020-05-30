@@ -1,0 +1,100 @@
+.newproject-form {
+    /* text-align: center; */
+}
+.newproject-form__title {
+    /* text-align: left; */
+}
+.newproject-editor {
+    margin-top: 1em;
+}
+.newproject-container {
+    
+}
+.newproject-guidelines {
+    padding: 1.5em;
+}
+.newproject-submit {
+    margin-top: 1.2em !important;
+    padding-bottom: 0.7em !important;
+    padding-left: 3em !important;
+    padding-right: 3em !important;
+    padding-top: 0.7em !important;
+}
+.newproject-cancel {
+    margin-left: 1em !important;
+    margin-top: 1.2em !important;
+    padding-bottom: 0.7em !important;
+    padding-left: 3em !important;
+    padding-right: 3em !important;
+    padding-top: 0.7em !important;
+}
+
+@media screen and (min-width: 980px) {
+    .newproject-container {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        /* max-width: 90vw; */
+    }
+    .newproject-form {
+        /* margin: auto; */
+        margin-left: 4em;
+        max-width: 55%;
+        text-align: left;
+    }
+
+    .newproject__input-container {
+
+    }
+    .newproject__title {
+        width: 100%;
+    }
+    .newproject__bugerror {
+        width: 100%;
+    }
+    .newproject__priority {
+        width: 100%;
+    }
+    .newproject__language {
+        margin-right: 1em !important;
+        width: 100%;
+    }
+    .newproject__duedate {
+        margin-right: 1em !important;
+        width: 100%;
+    }
+    .newproject__assignedto {
+        width: 100%;
+    }
+    .newproject__project {
+        width: 100%;
+    }
+
+
+    .newproject-guidelines {
+        border: 1px solid #cacaca;
+        border-radius: 0.5em;
+        /* margin-right: 2em; */
+        margin-top: 5.2em;
+        padding: 1.5em;
+        width: 18em;
+    }
+    .newproject__text {
+        color: #383838;
+    }
+}
+
+@media screen and (min-width: 1299px) {
+    .newproject-container {
+        margin: auto;
+        max-width: 1300px;
+    }
+    .newproject-form {
+        /* margin: auto; */
+        margin-left: 4em;
+        max-width: 65%;
+        text-align: left;
+        width: 100%;
+    }
+
+}

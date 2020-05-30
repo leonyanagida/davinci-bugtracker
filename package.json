@@ -1,0 +1,22 @@
+{
+  "name": "davinci-bugtracker",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/leonyanagida/davinci-bugtracker.git",
+  "author": "Leon <leonyanagida@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "concurrently \"cd client && yarn build\"",
+    "heroku-postbuild": "yarn build",
+    "install": "(cd client && yarn) && (cd server && yarn)",
+    "start:prod": "cd server && yarn start:prod"
+  },
+  "engines": {
+    "node": "12.13.0"
+  },
+  "dependencies": {
+    "concurrently": "^5.2.0",
+    "yarn": "^1.22.4"
+  }
+}

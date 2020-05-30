@@ -1,0 +1,24 @@
+.dashboard {
+    margin-top: 3em;
+}
+.dashboard__row2 {
+}
+
+@media screen and (min-width: 980px) {
+    .dashboard {
+        margin: auto;
+        margin-top: 3em;
+        width: 90%;
+    }
+    .dashboard__row2 {
+        display: flex;
+        margin-top: 3em;
+    }
+    .dashboard__row2__table {
+        width: 70%;
+    }
+    .dashboard__row2__card {
+        margin-left: 2em;
+        width: 30%;
+    }
+}

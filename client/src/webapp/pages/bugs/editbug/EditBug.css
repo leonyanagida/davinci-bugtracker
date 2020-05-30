@@ -1,0 +1,98 @@
+.editbug-form {
+    text-align: center;
+}
+.editbug-title-button {
+    display: flex;
+    flex-wrap: wrap;
+}
+.editbug-title {
+    flex-grow: 1 !important;
+}
+.editbug-delete-button {
+    height: 100% !important;
+    margin-top: 1.7em !important;
+}
+.editbug-editor {
+    margin-top: 1em;
+}
+.editbug-container {
+}
+.editbug-guidelines {
+    padding: 1.5em;
+}
+.editbug-submit {
+    margin-top: 1.2em !important;
+    padding-bottom: 0.7em !important;
+    padding-left: 3em !important;
+    padding-right: 3em !important;
+    padding-top: 0.7em !important;
+}
+.editbug-cancel {
+    margin-left: 1em !important;
+    margin-top: 1.2em !important;
+    padding-bottom: 0.7em !important;
+    padding-left: 3em !important;
+    padding-right: 3em !important;
+    padding-top: 0.7em !important;
+}
+
+@media screen and (min-width: 980px) {
+    .editbug-container {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .editbug-form {
+        margin-left: 8em;
+        max-width: 55%;
+        text-align: left;
+    }
+    .editbug__input-container {
+    }
+    .editbug__title {
+        width: 100%;
+    }
+    .editbug__bugerror {
+        width: 100%;
+    }
+    .editbug__priority {
+        width: 100%;
+    }
+    .editbug__language {
+        margin-right: 1em !important;
+        width: 100%;
+    }
+    .editbug__duedate {
+        margin-right: 1em !important;
+        width: 100%;
+    }
+    .editbug__assignedto {
+        width: 100%;
+    }
+    .editbug__project {
+        width: 100%;
+    }
+    .editbug-guidelines {
+        border: 1px solid #cacaca;
+        border-radius: 0.5em;
+        margin-right: 2em;
+        margin-top: 5.2em;
+        padding: 1.5em;
+        width: 17em;
+    }
+    .editbug__text {
+        color: #383838;
+    }
+}
+
+@media screen and (min-width: 1299px) {
+    .editbug-container {
+        margin: auto;
+        max-width: 1300px;
+    }
+    .editbug-form {
+        margin-left: 6em;
+        max-width: 65%;
+        text-align: left;
+    }
+}

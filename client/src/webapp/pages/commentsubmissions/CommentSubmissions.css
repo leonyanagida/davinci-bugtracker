@@ -1,0 +1,8 @@
+.commentsubmissions__flex {
+    display: flex;
+}
+.commentsubmissions__listitem {
+    border: 1px solid #c1c1c1;
+    border-radius: 2px;
+    width: 50% !important;
+}

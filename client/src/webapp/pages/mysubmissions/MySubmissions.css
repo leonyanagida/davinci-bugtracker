@@ -1,0 +1,22 @@
+.bugs {
+  background-color: #F3F3F3;
+}
+.mysubmissions-materialtable {
+  margin: auto;
+  padding-bottom: 5em;
+  width: 95%;
+}
+.mysubmissions-materialtable__btn {
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+.mysubmissions-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+  position: relative;
+}
+.mysubmissions-head__title {
+  margin-top: 1.2em;
+}
+  

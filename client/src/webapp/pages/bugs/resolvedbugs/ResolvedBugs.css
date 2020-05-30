@@ -1,0 +1,22 @@
+.bugs {
+  background-color: #F3F3F3;
+}
+.bugs-materialtable {
+  margin: auto;
+  padding-bottom: 5em;
+  width: 95%;
+}
+.bugs-materialtable__btn {
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+.bugs-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+  position: relative;
+}
+.bugs-head__title {
+  margin-top: 1.2em;
+}
+  

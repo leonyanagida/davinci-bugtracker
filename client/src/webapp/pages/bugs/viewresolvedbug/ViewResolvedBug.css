@@ -1,0 +1,109 @@
+.viewresolved__flex {
+}
+.viewresolved__inline {
+    display: inline;
+}
+.viewresolved__listitem {
+    margin-bottom: 0.3em;
+    padding-left: 0 !important;
+}
+.viewresolved__description {
+    border: 1px solid #C4C4C4;
+    border-radius: 0.6em;
+    margin-bottom: 3em;
+    margin-top: 1em;
+    padding: 1em;
+}
+.viewresolved__text-comment {
+    width: 100%;
+}
+.viewresolved__edit-resolve {
+    margin-bottom: 2em;
+    text-align: right;
+}
+.viewresolved__btn--resolve {
+    margin-left: 0.5em !important;
+}
+.viewresolved__side {
+    margin-top: 5em;
+}
+.viewresolved__submit-button {
+    float: right;
+    margin-top: 1em !important;
+    padding-lefT: 1.7em !important;
+    padding-right: 1.7em !important;
+}
+.viewresolved__cancel-button {
+    float: right;
+    margin-right: 0.6em !important;
+    margin-top: 1em !important;
+}
+
+@media screen and (min-width: 980px) {
+    .viewresolved__flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    .viewresolved__priority {
+        border-radius: 2em;
+        max-width: 100px;
+        padding-bottom: 0.4em;
+        padding-top: -.5em;
+        padding-top: 0.4em;
+        text-align: center;
+    }
+    .viewresolved__priority--high {
+        background-color: #F32424;
+        border: 1px solid #F32424;
+        color: white;
+    }
+    .viewresolved__priority--medium {
+        background-color: #F5BB25;
+        border: 1px solid #F5BB25;
+        color: white;
+    }
+    .viewresolved__priority--low {
+        background-color: #38A512;
+        border: 1px solid #38A512;
+        color: white;
+    }
+    .viewresolved__title {
+        margin-bottom: 0;
+    }
+    .viewresolved__language-createdAt {
+        display: flex;
+    }
+    .viewresolved__language {
+        padding-right: 2em;
+    }
+    .viewresolved__head-flex {
+        display: flex;
+    }
+    .viewresolved__head__text {
+    }
+    .viewresolved__createdAt {
+    }
+    .viewresolved__edit-resolve {
+        margin-bottom: 2em;
+        text-align: right;
+    }
+    .viewresolved__btn--resolve {
+        margin-left: -0.5em !important;
+
+    }
+    .viewresolved__btn--edit {
+        margin-right: 1em !important;
+    }
+    .viewresolved__description {
+        border: 1px solid #C4C4C4;
+        border-radius: 0.6em;
+        margin-top: 1em;
+        padding: 1em;
+    }
+    .viewresolved__detail {
+        width: 70%;
+    }
+    .viewresolved__side {
+        width: 25%;
+    }
+}

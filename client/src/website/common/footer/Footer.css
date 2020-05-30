@@ -1,0 +1,24 @@
+.footer {
+    margin: auto;
+    max-width: 80%;
+}
+.footer ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+.footer li {
+    padding-bottom: 0.7em;
+}
+.footer-box {
+    display: block;
+}
+
+@media screen and (min-width: 980px) {
+    .footer {
+        max-width: 1600px;
+    }
+    .footer-box {
+        display: flex;
+        justify-content: space-around;
+    }
+}

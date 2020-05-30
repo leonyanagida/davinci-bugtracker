@@ -1,0 +1,21 @@
+.projects {
+    background-color: #F3F3F3;
+}
+.projects-materialtable {
+  margin: auto;
+  padding-bottom: 5em;
+  width: 95%;
+}
+.projects-materialtable__btn {
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+.projects-head {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.projects-head__title {
+  margin-top: 1.2em;
+}
+  
