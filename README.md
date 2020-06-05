@@ -1,4 +1,4 @@
-# Da Vinci Bug Tracker
+# Da Vinci Bug Tracker - Personal Project
 
 #### Live Website: [Bugtracker](https://davinci-bugtracker.herokuapp.com/)
 Da Vinci is a full-stack web application built using React, Node/Express, and MongoDB. The application features an authentication system to log users in as a guest or a verified user. The web app also demonstrates the ability for users to create, edit, and delete bugs for existing projects. The user can leave comments and view comments made by other users. The data for the application is retrieved and stored on the MongoDB cloud.
